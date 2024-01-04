@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple SD UI</title>
+    <link rel="stylesheet" href='/static/main.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form action="/submit" method="POST">
+        <br>
+        <h1 class="">Stable Diffusion 📷</h1>
+        <br>
+        <textarea id="text" class="text" name="text">{{ previous_text }}</textarea><br>
+        <br>
+        <input type="submit" class="" value="⇩Shake⇩">
+        <br>
+        <br>
+        <img src= "/static/output.png">
+    </form>
+</body>
+</html>
